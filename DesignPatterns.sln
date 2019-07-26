@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{C2F08414-4378-47EB-9EF0-6529669836CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{C2F08414-4378-47EB-9EF0-6529669836CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{A6708747-BCF4-4CC5-9314-EA9E39D41420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{A6708747-BCF4-4CC5-9314-EA9E39D41420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{97961F72-2CCC-4DE2-B224-27B786D1D64C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A6708747-BCF4-4CC5-9314-EA9E39D41420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6708747-BCF4-4CC5-9314-EA9E39D41420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6708747-BCF4-4CC5-9314-EA9E39D41420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97961F72-2CCC-4DE2-B224-27B786D1D64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97961F72-2CCC-4DE2-B224-27B786D1D64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97961F72-2CCC-4DE2-B224-27B786D1D64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97961F72-2CCC-4DE2-B224-27B786D1D64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

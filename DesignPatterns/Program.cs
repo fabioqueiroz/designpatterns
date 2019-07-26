@@ -6,7 +6,19 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var t = new Test();
+
+            foreach (var item in t.Emails)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadKey();
         }
+    }
+
+    public class Test
+    {
+        public string[] Emails { get; } = { "one", "two" };
     }
 }
