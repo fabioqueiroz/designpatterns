@@ -10,5 +10,7 @@ namespace Mediator
         {
             Console.WriteLine(state);
         }
+
+        //void IComponent.SetState(object state) => Console.WriteLine(state);
     }
 }
