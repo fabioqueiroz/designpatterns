@@ -78,7 +78,6 @@ namespace Singleton
         }
 
 
-
         // Simple, but effective random load balancer
 
         public string Server
