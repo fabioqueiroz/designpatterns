@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{97961F72-2CCC-4DE2-B224-27B786D1D64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{34CEA083-BD78-42FE-9475-5EB871945838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{34CEA083-BD78-42FE-9475-5EB871945838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{34CEA083-BD78-42FE-9475-5EB871945838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34CEA083-BD78-42FE-9475-5EB871945838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34CEA083-BD78-42FE-9475-5EB871945838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
