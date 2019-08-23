@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{47C3B3C6-F748-4D92-8CB8-00D6A087A54C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{ECABE6A3-626D-4CD2-8414-AE8FEF901D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{ECABE6A3-626D-4CD2-8414-AE8FEF901D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.csproj", "{12ECC511-78B4-46F1-9122-6108818AC06E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{ECABE6A3-626D-4CD2-8414-AE8FEF901D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECABE6A3-626D-4CD2-8414-AE8FEF901D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECABE6A3-626D-4CD2-8414-AE8FEF901D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12ECC511-78B4-46F1-9122-6108818AC06E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12ECC511-78B4-46F1-9122-6108818AC06E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12ECC511-78B4-46F1-9122-6108818AC06E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12ECC511-78B4-46F1-9122-6108818AC06E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
